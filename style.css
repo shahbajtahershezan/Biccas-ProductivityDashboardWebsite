@@ -57,10 +57,11 @@ a.signup-btn {
 
 .main-sction {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    margin-top: 4rem;
     position: relative;
-    margin-bottom: 6rem;
 }
 
 .main-content h1 {
@@ -76,27 +77,44 @@ a.signup-btn {
     opacity: .6;
 }
 
-.home-btn {
+.hero-btn-group {
     display: flex;
-    gap: 3rem;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
 
-.home-btn .trial-btn {
+.hero-btn-one {
     background: #54BD95;
     color: #fff;
-    padding: 1.4rem 2.6rem;
-    border-radius: 2.5rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.home-btn .play-btn {
+.hero-btn-one:hover {
+    background: #45a883;
+}
+
+.hero-btn-two {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     color: #000;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.home-btn img {
-    position: relative;
-    top: .8rem;
-    right: .7rem;
+.hero-btn-two:hover {
+    color: #54BD95;
 }
+
 
 .hero-img img {
     position: relative;
@@ -118,29 +136,29 @@ a.signup-btn {
 .shape3 {
     position: absolute;
     top: 12%;
-    right: 19rem;
+    right: 4rem;
     transform: translateY(-50%) rotate(10deg);
     z-index: 1;
 }
 
 .shape4 {
     position: absolute;
-    top: 80%;
-    right: 43rem;
+    top: 95%;
+    right:8rem;
     z-index: 1;
 }
 
 .shape5 {
     position: absolute;
-    right: 20%;
-    top: 95%;
+    right:34%;
+    top: 75%;
     z-index: 1;
 }
 
 .shape6{
     position: absolute;
-    right: 12%;
-    top: 55%;
+    right:1%;
+    top: 45%;
     z-index: 1;
 }
 .shape7{
