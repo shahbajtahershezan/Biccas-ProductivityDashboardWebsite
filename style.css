@@ -122,7 +122,7 @@ a.signup-btn {
 
 .shape1 {
     position: absolute;
-    right: 40%;
+    right: 30%;
     top: 35%;
     z-index: 1;
 }
@@ -150,7 +150,7 @@ a.signup-btn {
 
 .shape5 {
     position: absolute;
-    right:34%;
+    right:24%;
     top: 75%;
     z-index: 1;
 }
@@ -163,7 +163,7 @@ a.signup-btn {
 }
 .shape7{
     position: absolute;
-    right: 33%;
+    right: 25%;
     top: 8%;
     z-index: 100;
 }
